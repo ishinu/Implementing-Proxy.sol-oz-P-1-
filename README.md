@@ -1,13 +1,11 @@
-# Sample Hardhat Project
+# Ice-Cream Factory Sample Project 
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+Project is having two contracts :
+- Implementation ( IceCreamFactory ) 
+- Proxy ( FrontFace ) 
 
-Try running some of the following tasks:
+Our goal is to delegate all calls from Proxy to Implementation. [docs](https://docs.openzeppelin.com/contracts/4.x/api/proxy#Proxy)
 
-```shell
-npx hardhat help
-npx hardhat test
-GAS_REPORT=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+At moment, Implementation is working perfectly but Proxy is still having a few bugs. 
+
+Soon it will be fixed and README will be updated. ~Stay tuned.
